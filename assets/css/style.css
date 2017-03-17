@@ -1009,7 +1009,7 @@ a.linkedin:hover{
 	color: #ffffff;
 }
 
-.about_image .overlay .quote{
+ .testimonials .quote{
 	color: #ededed;
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
@@ -1024,13 +1024,13 @@ a.linkedin:hover{
 	transform: translate(-50%, -50%);
 }
 
-.about_image .overlay .quote i{
+ .testimonials .quote i{
 	font-size: 35px;
 	display: block;
 	margin-bottom: 15px;
 }
 
-.about_image .overlay .quote span{
+ .testimonials .quote span{
 	border-bottom:2px solid transparent;
 	display: inline;
 	-webkit-transition: all 300ms linear;
@@ -1039,7 +1039,7 @@ a.linkedin:hover{
 	transition: all 300ms linear;
 }
 
-.about_image .overlay .quote .source{
+ .testimonials .source{
 	font-style: italic;
 	color:#ededed;
 	font-size: 18px;
@@ -1093,6 +1093,8 @@ a.linkedin:hover{
 .user_titles .signature{
 	text-align: center;
 	margin-top: 50px;
+	font-family: 'Sacramento', cursive;
+	font-size:40px;
 }
 
 /* about body */
@@ -1399,7 +1401,7 @@ a.linkedin:hover{
 	font-weight: 700;
 }
 
-.parallax_item .parallax_content .parallax_title:after{
+.parallax_item .parallax_content .parallax_title:after :not(.quote){
 	content: '';
 	position: absolute;
 	width: 50px;

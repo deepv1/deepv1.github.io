@@ -404,7 +404,7 @@
 
 	    //do counter up
 	    $(".counter_up").appear();
-	    $("body").on("appear", ".counter_up", function(event, $all_appeared_elements){
+      $("body").on("appear", ".counter_up:not(.slow)", function(event, $all_appeared_elements){
 
 	    	if (!$(this).hasClass("animated")){
 				$(this).counterUp({
@@ -415,6 +415,17 @@
 		    }
 
 	    });
+      $("body").on("appear", ".counter_up.slow", function(event, $all_appeared_elements){
+
+        if (!$(this).hasClass("animated")){
+        $(this).counterUp({
+          delay: 10,
+          time: 6000000
+        });
+        $(this).addClass("animated");
+        }
+
+      });
 
 	}else{
 		//when on mobile device
