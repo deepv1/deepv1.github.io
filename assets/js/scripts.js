@@ -420,7 +420,7 @@
         if (!$(this).hasClass("animated")){
         $(this).counterUp({
           delay: 10,
-          time: 6000000
+          time: 600000
         });
         $(this).addClass("animated");
         }
