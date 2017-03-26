@@ -1014,14 +1014,7 @@ a.linkedin:hover{
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
 	padding: 50px;
-	position: absolute;
-	width: calc(100% - 30px);
-	left: 50%;
-	top: 50%;
 	text-align: center;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
 }
 
  .testimonials .quote i{

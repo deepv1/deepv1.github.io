@@ -48,6 +48,8 @@
     	var winHeight = $(window).height();
 
     	$(".home_fullscreen_image").css("height", winHeight);
+
+      $(".testimonials").css("height", winHeight + "px");
     }
 
     //when you click the scroll to top button, go to the top of the page
@@ -378,6 +380,8 @@
 			$(".parallax_item").parallax("50%", 0.4);
 
 			$(".home_fullscreen_image").parallax("50%", 0.4);
+
+      $(".testimonials").parallax("100%", 0.4);
 		});
 
 		$(window).load(function(){
@@ -433,6 +437,7 @@
 		var winHeight = $(window).height();
 		$(".home_fullscreen_image").css("height", winHeight + "px");
 
+    $(".testimonials").css("height", winHeight + "px");
 		//dont do parallax effect, instead show static image
 		$(".parallax_item").addClass("no_parallax");
 
