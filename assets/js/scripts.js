@@ -443,7 +443,6 @@
 
 		$(".home_fullscreen_image").addClass("no_parallax");
 
-
 		//animate skills
 	    $(".skills .skill").appear();
 	    $("body").on("appear", ".skills .skill", function(event, $all_appeared_elements){
